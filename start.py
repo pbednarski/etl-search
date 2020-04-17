@@ -130,8 +130,8 @@ files = file_operations(db)
 print(" ")
 print("Starting files adding process ")
 
-files.songs_file_insert("xaa.txt")
-files.auditions_file_insert("xab.txt")
+files.songs_file_insert("unique_tracks.txt")
+files.auditions_file_insert("triplets_sample_20p.txt")
 
 print(" ")
 print("Starting search process ")
